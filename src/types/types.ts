@@ -16,3 +16,9 @@ export type Project = {
 export type ProjectsProps = {
   project: Project;
 };
+
+export type Skill = {
+  id: number;
+  title: string;
+  items: string[];
+};

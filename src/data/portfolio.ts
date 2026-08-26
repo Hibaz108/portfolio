@@ -1,4 +1,4 @@
-import type { NavItem, Project } from "../types/types";
+import type { NavItem, Project, Skill } from "../types/types";
 import {
   SiReact,
   SiTypescript,
@@ -51,5 +51,33 @@ export const projects: Project[] = [
     ],
     liveDemo: "https://pink-delight.vercel.app",
     sourceCode: "https://github.com/Hibaz108/Pink-delight",
+  },
+];
+
+export const skills: Skill[] = [
+  {
+    id: 1,
+    title: "Frontend",
+    items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js"],
+  },
+  {
+    id: 2,
+    title: "Styling & UI",
+    items: ["Tailwind CSS", "Bootstrap", "shadcn/ui", "MUI"],
+  },
+  {
+    id: 3,
+    title: "State & Data",
+    items: ["Zustand", "React Query"],
+  },
+  {
+    id: 4,
+    title: "APIs & Forms",
+    items: ["REST APIs", "React Hook Form", "Zod"],
+  },
+  {
+    id: 5,
+    title: "Tools",
+    items: ["Git", "GitHub", "Postman", "Figma"],
   },
 ];
