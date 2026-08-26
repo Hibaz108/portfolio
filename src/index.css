@@ -13,9 +13,14 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground font-sans;
   }
+
   button {
     @apply cursor-pointer;
   }
