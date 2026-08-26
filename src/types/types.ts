@@ -22,3 +22,8 @@ export type Skill = {
   title: string;
   items: string[];
 };
+
+export type SocialLink = {
+  label: string;
+  href: string;
+};

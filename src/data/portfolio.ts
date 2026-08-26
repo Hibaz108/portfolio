@@ -1,4 +1,4 @@
-import type { NavItem, Project, Skill } from "../types/types";
+import type { NavItem, Project, Skill, SocialLink } from "../types/types";
 import {
   SiReact,
   SiTypescript,
@@ -80,4 +80,9 @@ export const skills: Skill[] = [
     title: "Tools",
     items: ["Git", "GitHub", "Postman", "Figma"],
   },
+];
+
+export const socials: SocialLink[] = [
+  { label: "Github", href: "https://github.com/Hibaz108" },
+  { label: "Email", href: "mailto:hibbaa108@gmail.com" },
 ];
