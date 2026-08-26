@@ -6,7 +6,7 @@ const ProjectsSection = () => {
     <section id="projects" className="container py-6 space-y-8 scroll-mt-24">
       <h2 className="italic text-4xl font-heading font-semibold">
         <span aria-hidden="true" className="text-accent font-extrabold">
-          |
+          |{" "}
         </span>
         Projects
       </h2>

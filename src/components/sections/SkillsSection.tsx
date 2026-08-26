@@ -9,7 +9,7 @@ const SkillsSection = () => {
       <div className="container flex flex-col justify-center gap-5">
         <h2 className="italic text-background text-4xl font-heading font-semibold tracking-wider ">
           <span aria-hidden="true" className="text-accent font-extrabold">
-            |
+            |{" "}
           </span>
           Skills
         </h2>
