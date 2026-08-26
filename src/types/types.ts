@@ -11,6 +11,8 @@ export type Project = {
   techStack: { label: string; icon: React.ElementType | null }[];
   liveDemo: string;
   sourceCode: string;
+  imageWidth: number;
+  imageHeight: number;
 };
 
 export type ProjectsProps = {

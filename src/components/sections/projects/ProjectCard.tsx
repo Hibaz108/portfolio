@@ -10,7 +10,10 @@ const ProjectCard = ({ project }: ProjectsProps) => {
           src={project.image}
           alt={`${project.title} project preview`}
           className="h-full w-full object-cover object-top"
+          width={project.imageWidth}
+          height={project.imageHeight}
           loading="lazy"
+          decoding="async"
           draggable="false"
         />
       </div>

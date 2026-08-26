@@ -19,7 +19,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "Movira",
-    image: "/movira-proj.png",
+    image: "/movira-proj.webp",
     description:
       "A movie discovery website where users can explore trending, popular, and top-rated movies, search and filter by genre, view detailed movie information, and save movies to their favorites and watchlist.",
     techStack: [
@@ -33,12 +33,14 @@ export const projects: Project[] = [
     ],
     liveDemo: "https://movira-drab.vercel.app",
     sourceCode: "https://github.com/Hibaz108/Movira",
+    imageWidth: 1200,
+    imageHeight: 1816,
   },
 
   {
     id: 2,
     title: "Pink Delight",
-    image: "/pink-delight.png",
+    image: "/pink-delight.webp",
     description:
       "A simple bakery website where users can browse desserts by category, view product details, and manage their cart adjusting quantities, removing items, with subtotal and shipping calculated automatically.",
     techStack: [
@@ -51,6 +53,8 @@ export const projects: Project[] = [
     ],
     liveDemo: "https://pink-delight.vercel.app",
     sourceCode: "https://github.com/Hibaz108/Pink-delight",
+    imageWidth: 1200,
+    imageHeight: 738,
   },
 ];
 
