@@ -20,7 +20,7 @@ const HeroSection = () => {
         <a
           href="#contact"
           className="h-12 w-48 flex items-center justify-center bg-foreground text-background 
-        font-medium rounded-4xl cursor-pointer"
+        font-medium rounded-4xl hover:bg-accent hover:text-foreground transition-colors duration-500"
         >
           Get in touch
         </a>
@@ -28,7 +28,7 @@ const HeroSection = () => {
         <a
           href="/"
           className="h-12 w-48 flex items-center justify-center text-foreground font-medium border
-           border-foreground/15 rounded-4xl cursor-pointer"
+           border-foreground/15 rounded-4xl hover:border-foreground transition-colors duration-500"
         >
           Download cv
         </a>

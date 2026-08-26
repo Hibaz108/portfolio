@@ -2,6 +2,7 @@ import Header from "./components/layout/Header";
 import HeroSection from "./components/sections/HeroSection";
 import ProjectsSection from "./components/sections/projects/ProjectsSection";
 import SkillsSection from "./components/sections/SkillsSection";
+import ContactSection from "./components/sections/ContactSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <ProjectsSection />
       <SkillsSection />
+      <ContactSection />
     </div>
   );
 }

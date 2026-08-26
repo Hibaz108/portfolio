@@ -36,7 +36,7 @@ const ProjectCard = ({ project }: ProjectsProps) => {
             target="_blank"
             rel="noopener noreferrer"
             className="w-full py-3 flex items-center justify-center gap-2 rounded-4xl
-             bg-foreground text-background font-medium cursor-pointer
+             bg-foreground text-background font-medium 
              hover:bg-accent hover:text-foreground transition-colors duration-500"
           >
             <SquareArrowOutUpRight size={15} aria-hidden="true" /> Live Demo
@@ -46,7 +46,7 @@ const ProjectCard = ({ project }: ProjectsProps) => {
             target="_blank"
             rel="noopener noreferrer"
             className="w-full py-3 flex items-center justify-center gap-2 rounded-4xl border
-            border-foreground/20 text-foreground/70 font-medium cursor-pointer
+            border-foreground/20 text-foreground/70 font-medium
              hover:border-foreground transition-colors duration-500"
           >
             <SiGithub size={16} color="default" aria-hidden="true" /> Source
