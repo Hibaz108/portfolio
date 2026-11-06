@@ -7,6 +7,9 @@ import {
   SiReactrouter,
   SiShadcnui,
   SiNextdotjs,
+  SiSupabase,
+  SiReacthookform,
+  SiZod,
 } from "@icons-pack/react-simple-icons";
 
 export const navItems: NavItem[] = [
@@ -56,6 +59,28 @@ export const projects: Project[] = [
     imageWidth: 1200,
     imageHeight: 738,
   },
+  {
+    id: 3,
+    title: "My Agenda",
+    image: "/my-agenda.webp",
+    description:
+      "A task management app that helps users organize their daily tasks, set priorities, and track their progress easily.",
+    techStack: [
+      { label: "Next.js", icon: SiNextdotjs },
+      { label: "React", icon: SiReact },
+      { label: "TypeScript", icon: SiTypescript },
+      { label: "Tailwind CSS", icon: SiTailwindcss },
+      { label: "shadcn/ui", icon: SiShadcnui },
+      { label: "Supabase", icon: SiSupabase },
+      { label: "React Query", icon: SiReactquery },
+      { label: "React Hook Form", icon: SiReacthookform },
+      { label: "Zod", icon: SiZod },
+    ],
+    liveDemo: "https://my-agenda-sand.vercel.app",
+    sourceCode: "https://github.com/Hibaz108/My-Agenda.git",
+    imageWidth: 2420,
+    imageHeight: 1418,
+  },
 ];
 
 export const skills: Skill[] = [
@@ -76,11 +101,16 @@ export const skills: Skill[] = [
   },
   {
     id: 4,
-    title: "APIs & Forms",
-    items: ["REST APIs", "React Hook Form", "Zod"],
+    title: "API & Backend",
+    items: ["REST APIs", "Supabase"],
   },
   {
     id: 5,
+    title: "Forms & Validation",
+    items: ["React Hook Form", "Zod"],
+  },
+  {
+    id: 6,
     title: "Tools",
     items: ["Git", "GitHub", "Postman", "Figma"],
   },
